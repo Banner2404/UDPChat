@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1C90719201E3C1100A0B0CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C90718201E3C1100A0B0CE /* AppDelegate.swift */; };
+		D1C9071B201E3C1100A0B0CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C9071A201E3C1100A0B0CE /* ViewController.swift */; };
+		D1C9071E201E3C1100A0B0CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C9071C201E3C1100A0B0CE /* Main.storyboard */; };
+		D1C90720201E3C1100A0B0CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C9071F201E3C1100A0B0CE /* Assets.xcassets */; };
+		D1C90723201E3C1100A0B0CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C90721201E3C1100A0B0CE /* LaunchScreen.storyboard */; };
+		D1C9072E201E3C1100A0B0CE /* UDPChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C9072D201E3C1100A0B0CE /* UDPChatTests.swift */; };
+		D1C90739201E3C1100A0B0CE /* UDPChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C90738201E3C1100A0B0CE /* UDPChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1C9072A201E3C1100A0B0CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1C9070D201E3C1100A0B0CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1C90714201E3C1100A0B0CE;
+			remoteInfo = UDPChat;
+		};
+		D1C90735201E3C1100A0B0CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1C9070D201E3C1100A0B0CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1C90714201E3C1100A0B0CE;
+			remoteInfo = UDPChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1C90715201E3C1100A0B0CE /* UDPChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UDPChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C90718201E3C1100A0B0CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1C9071A201E3C1100A0B0CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1C9071D201E3C1100A0B0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1C9071F201E3C1100A0B0CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1C90722201E3C1100A0B0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1C90724201E3C1100A0B0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1C90729201E3C1100A0B0CE /* UDPChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UDPChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C9072D201E3C1100A0B0CE /* UDPChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPChatTests.swift; sourceTree = "<group>"; };
+		D1C9072F201E3C1100A0B0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1C90734201E3C1100A0B0CE /* UDPChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UDPChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C90738201E3C1100A0B0CE /* UDPChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPChatUITests.swift; sourceTree = "<group>"; };
+		D1C9073A201E3C1100A0B0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C90712201E3C1100A0B0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C90726201E3C1100A0B0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C90731201E3C1100A0B0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1C9070C201E3C1100A0B0CE = {
+			isa = PBXGroup;
+			children = (
+				D1C90717201E3C1100A0B0CE /* UDPChat */,
+				D1C9072C201E3C1100A0B0CE /* UDPChatTests */,
+				D1C90737201E3C1100A0B0CE /* UDPChatUITests */,
+				D1C90716201E3C1100A0B0CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1C90716201E3C1100A0B0CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1C90715201E3C1100A0B0CE /* UDPChat.app */,
+				D1C90729201E3C1100A0B0CE /* UDPChatTests.xctest */,
+				D1C90734201E3C1100A0B0CE /* UDPChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1C90717201E3C1100A0B0CE /* UDPChat */ = {
+			isa = PBXGroup;
+			children = (
+				D1C90718201E3C1100A0B0CE /* AppDelegate.swift */,
+				D1C9071A201E3C1100A0B0CE /* ViewController.swift */,
+				D1C9071C201E3C1100A0B0CE /* Main.storyboard */,
+				D1C9071F201E3C1100A0B0CE /* Assets.xcassets */,
+				D1C90721201E3C1100A0B0CE /* LaunchScreen.storyboard */,
+				D1C90724201E3C1100A0B0CE /* Info.plist */,
+			);
+			path = UDPChat;
+			sourceTree = "<group>";
+		};
+		D1C9072C201E3C1100A0B0CE /* UDPChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1C9072D201E3C1100A0B0CE /* UDPChatTests.swift */,
+				D1C9072F201E3C1100A0B0CE /* Info.plist */,
+			);
+			path = UDPChatTests;
+			sourceTree = "<group>";
+		};
+		D1C90737201E3C1100A0B0CE /* UDPChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1C90738201E3C1100A0B0CE /* UDPChatUITests.swift */,
+				D1C9073A201E3C1100A0B0CE /* Info.plist */,
+			);
+			path = UDPChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1C90714201E3C1100A0B0CE /* UDPChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1C9073D201E3C1100A0B0CE /* Build configuration list for PBXNativeTarget "UDPChat" */;
+			buildPhases = (
+				D1C90711201E3C1100A0B0CE /* Sources */,
+				D1C90712201E3C1100A0B0CE /* Frameworks */,
+				D1C90713201E3C1100A0B0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UDPChat;
+			productName = UDPChat;
+			productReference = D1C90715201E3C1100A0B0CE /* UDPChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1C90728201E3C1100A0B0CE /* UDPChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1C90740201E3C1100A0B0CE /* Build configuration list for PBXNativeTarget "UDPChatTests" */;
+			buildPhases = (
+				D1C90725201E3C1100A0B0CE /* Sources */,
+				D1C90726201E3C1100A0B0CE /* Frameworks */,
+				D1C90727201E3C1100A0B0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1C9072B201E3C1100A0B0CE /* PBXTargetDependency */,
+			);
+			name = UDPChatTests;
+			productName = UDPChatTests;
+			productReference = D1C90729201E3C1100A0B0CE /* UDPChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1C90733201E3C1100A0B0CE /* UDPChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1C90743201E3C1100A0B0CE /* Build configuration list for PBXNativeTarget "UDPChatUITests" */;
+			buildPhases = (
+				D1C90730201E3C1100A0B0CE /* Sources */,
+				D1C90731201E3C1100A0B0CE /* Frameworks */,
+				D1C90732201E3C1100A0B0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1C90736201E3C1100A0B0CE /* PBXTargetDependency */,
+			);
+			name = UDPChatUITests;
+			productName = UDPChatUITests;
+			productReference = D1C90734201E3C1100A0B0CE /* UDPChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1C9070D201E3C1100A0B0CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Евгений Соболь";
+				TargetAttributes = {
+					D1C90714201E3C1100A0B0CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D1C90728201E3C1100A0B0CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D1C90714201E3C1100A0B0CE;
+					};
+					D1C90733201E3C1100A0B0CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D1C90714201E3C1100A0B0CE;
+					};
+				};
+			};
+			buildConfigurationList = D1C90710201E3C1100A0B0CE /* Build configuration list for PBXProject "UDPChat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1C9070C201E3C1100A0B0CE;
+			productRefGroup = D1C90716201E3C1100A0B0CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1C90714201E3C1100A0B0CE /* UDPChat */,
+				D1C90728201E3C1100A0B0CE /* UDPChatTests */,
+				D1C90733201E3C1100A0B0CE /* UDPChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1C90713201E3C1100A0B0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C90723201E3C1100A0B0CE /* LaunchScreen.storyboard in Resources */,
+				D1C90720201E3C1100A0B0CE /* Assets.xcassets in Resources */,
+				D1C9071E201E3C1100A0B0CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C90727201E3C1100A0B0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C90732201E3C1100A0B0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1C90711201E3C1100A0B0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C9071B201E3C1100A0B0CE /* ViewController.swift in Sources */,
+				D1C90719201E3C1100A0B0CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C90725201E3C1100A0B0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C9072E201E3C1100A0B0CE /* UDPChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C90730201E3C1100A0B0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C90739201E3C1100A0B0CE /* UDPChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1C9072B201E3C1100A0B0CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1C90714201E3C1100A0B0CE /* UDPChat */;
+			targetProxy = D1C9072A201E3C1100A0B0CE /* PBXContainerItemProxy */;
+		};
+		D1C90736201E3C1100A0B0CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1C90714201E3C1100A0B0CE /* UDPChat */;
+			targetProxy = D1C90735201E3C1100A0B0CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1C9071C201E3C1100A0B0CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1C9071D201E3C1100A0B0CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1C90721201E3C1100A0B0CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1C90722201E3C1100A0B0CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1C9073B201E3C1100A0B0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1C9073C201E3C1100A0B0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1C9073E201E3C1100A0B0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UDPChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = company.UDPChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1C9073F201E3C1100A0B0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UDPChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = company.UDPChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1C90741201E3C1100A0B0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UDPChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = company.UDPChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UDPChat.app/UDPChat";
+			};
+			name = Debug;
+		};
+		D1C90742201E3C1100A0B0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UDPChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = company.UDPChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UDPChat.app/UDPChat";
+			};
+			name = Release;
+		};
+		D1C90744201E3C1100A0B0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UDPChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = company.UDPChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UDPChat;
+			};
+			name = Debug;
+		};
+		D1C90745201E3C1100A0B0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UDPChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = company.UDPChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UDPChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1C90710201E3C1100A0B0CE /* Build configuration list for PBXProject "UDPChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C9073B201E3C1100A0B0CE /* Debug */,
+				D1C9073C201E3C1100A0B0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1C9073D201E3C1100A0B0CE /* Build configuration list for PBXNativeTarget "UDPChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C9073E201E3C1100A0B0CE /* Debug */,
+				D1C9073F201E3C1100A0B0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1C90740201E3C1100A0B0CE /* Build configuration list for PBXNativeTarget "UDPChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C90741201E3C1100A0B0CE /* Debug */,
+				D1C90742201E3C1100A0B0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1C90743201E3C1100A0B0CE /* Build configuration list for PBXNativeTarget "UDPChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C90744201E3C1100A0B0CE /* Debug */,
+				D1C90745201E3C1100A0B0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1C9070D201E3C1100A0B0CE /* Project object */;
+}
